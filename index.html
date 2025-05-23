@@ -3,34 +3,22 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mickey | Portfolio</title>
+  <title>Mickey | Python Portfolio</title>
   <style>
     body {
       font-family: 'Segoe UI', sans-serif;
       margin: 0;
+      padding: 0;
       background-color: #f4f4f4;
       color: #333;
     }
 
-    header {
-      background-color: #fff;
-      padding: 20px;
-      text-align: center;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    .hero {
+      background-image: url('スクリーンショット 2025-05-23 021250.png');
+      background-size: cover;
+      background-position: center;
+      height: 300px;
     }
-
-    header h1 {
-      margin: 0;
-      font-size: 26px;
-      color: #2c3e50;
-    }
-
- .hero {
-  background-image: url('ca756337-2794-4aee-bfa5-2a9bc6395668.png');
-  background-size: cover;
-  background-position: center;
-  height: 300px;
-}
 
     .container {
       padding: 40px;
@@ -38,48 +26,46 @@
       margin: auto;
     }
 
-    .project h2 {
-      margin-bottom: 10px;
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+    }
+
+    h2 {
+      margin-top: 40px;
+      color: #2c3e50;
     }
 
     .project a {
-      text-decoration: none;
-      color: #512da8;
+      color: #5a2ca0;
       font-weight: bold;
-      font-size: 18px;
-    }
-
-    .project a:hover {
-      text-decoration: underline;
+      font-size: 20px;
+      text-decoration: none;
     }
 
     .project p {
-      margin-top: 10px;
-      font-size: 15px;
       line-height: 1.6;
+    }
+
+    .project strong {
+      display: inline-block;
+      margin-top: 10px;
     }
   </style>
 </head>
 <body>
 
-  <header>
-    <h1>Mickey</h1>
-  </header>
-
+  <!-- サンフランシスコ画像 -->
   <div class="hero"></div>
 
+  <!-- ポートフォリオ本文 -->
   <div class="container">
+    <h1>Mickey</h1>
+
     <section class="project">
       <h2>Projects</h2>
-      <p>
-        <a href="bike_rental_analysis.html" target="_blank">
-          Bay Wheels: Bike Rental Analysis
-        </a>
-      </p>
-      <p>
-        This project explores bikeshare rental behavior across different weather conditions and days of the week.
-        Tools used: Python, Pandas, Seaborn.
-      </p>
+      <p><a href="bike_rental_analysis.html">Bay Wheels: Bike Rental Analysis</a></p>
+      <p>This project explores bikeshare rental behavior across different weather conditions and days of the week. Tools used: Python, Pandas, Seaborn.</p>
       <p><strong>Duration:</strong> 5 minute read</p>
     </section>
   </div>
